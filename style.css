@@ -1,5 +1,6 @@
-/* * {
-  outline: 1px solid red; /* shows all element boundaries */
+/*
+  *{outline: 1px solid red;  /*shows all element boundaries*/ 
+  
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oleo+Script:wght@400;700&display=swap');
 
 
@@ -66,3 +67,7 @@ section {
 
 
 
+.embed-responsive-item {
+
+  object-fit: contain; 
+}
