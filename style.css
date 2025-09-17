@@ -68,6 +68,6 @@ section {
 
 
 .embed-responsive-item {
-
+max-width: 100%;
   object-fit: contain; 
 }
