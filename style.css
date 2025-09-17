@@ -1,0 +1,68 @@
+/* * {
+  outline: 1px solid red; /* shows all element boundaries */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oleo+Script:wght@400;700&display=swap');
+
+
+  :root {
+    --primary-color: #8a6c52;
+    --secondary-color: #181411;
+    --text-light: #f8f9fa;
+    --text-dark: #343a40;
+}
+
+body {
+    font-family: noto-serif;
+    color: var(--text-dark);
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+}
+
+.navbar-brand {
+    color: var(--primary-color) !important;
+    font-weight: 900;
+}
+
+.nav-link {
+    color: var(--text-dark) !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: var(--primary-color) !important;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+.bg-secondary {
+    background-color: var(--secondary-color) !important;
+}
+.btn-primary:hover {
+    background-color: #c0620f56;
+    border-color: #c0610f;
+}
+
+#hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('media/images/place-bg.png') center/cover no-repeat;
+   
+    min-height: 80vh;
+    color: var(--text-light);
+}
+
+#order-now{
+
+background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url('media/images/bg.png') center/cover no-repeat;
+ color: var(--text-light);
+
+}
+
+section {
+    padding: 2rem 0;
+}
+
+
+

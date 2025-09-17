@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>MIMET Cafe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="media/images/Icon.png">
+
+</head>
+
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <!-- <i class="fas fa-mug-hot me-2"></i> -->
+                <img src="media/images/logo.png" style="width:5rem;" class="me-4">MIMET CAFE
+            </a>
+            <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#find-us">Find Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#socials">Socials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ContactUs">Contact Us</a></li>
+                </ul>
+                <a class="btn btn-primary ms-lg-3 rounded-pill px-4" href="#order-now">Order Now</a>
+            </div>
+        </div>
+    </nav>
+    <section class="d-flex align-items-center text-center" id="hero">
+        <div class="container">
+            <h1 class="display-3 fw-bold">MIMET CAFE</h1>
+            <p class="lead my-3">Experience Coffee Embrace Luxury</p>
+            <a class="btn btn-primary btn-lg rounded-pill px-5 py-3" href="#menu">Explore Menu</a>
+        </div>
+    </section>
+ <section id="explore-home" class="bg-white">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">Explore our Home</h2>
+            <hr class="w-25 mx-auto border-3" style="border-color: var(--primary-color) !important;" />
+        </div>
+        <div class="text-center embed-responsive embed-responsive-16by9">
+            <video class="embed-responsive-item" controls poster="media/images/Icon.png">
+                <source src="media/video2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</section>
+    <section class="bg-white" id="menu">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Our Menu</h2>
+                <hr class="w-25 mx-auto border-3" style="border-color: var(--primary-color) !important;" />
+            </div>
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="media/images/image1.png" class="d-block w-100 mx-auto" alt="Image 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="media/images/image2.png" class="d-block w-100 mx-auto" alt="Image 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="media/images/image3.png" class="d-block w-100 mx-auto" alt="Image 3">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white" id="find-us">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">How to Find Us</h2>
+                <hr class="w-25 mx-auto border-3" style="border-color: var(--primary-color) !important;" />
+            </div>
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <img src="media/images/FindUs.jpeg" class="img-fluid">
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <p class="lead">23rd street Port Said, Egypt</p>
+            </div>
+        </div>
+    </section>
+    <section class="text-center" id="order-now">
+        <div class="container">
+            <h2 class="fw-bold mt-3 mb-3">Ready to Order?</h2>
+            <a class="btn btn-primary btn-lg rounded-pill px-5 py-3 mb-3" href="https://www.talabat.com/egypt/mimet">Order Now</a>
+            <div><img src="media/images/talabat-logo.png" class="img-fluid" style="width: 10rem;"></div>
+        </div>
+    </section>
+    <section id="socials">
+        <div class="container">
+            <div class="text-center mb-2">
+                <h2 class="fw-bold">Our Socials</h2>
+                <hr class="w-25 mx-auto border-3" style="border-color: var(--primary-color) !important;" />
+            </div>
+            <div class="d-flex justify-content-center gap-4">
+                <a class="text-dark fs-2" href="https://www.instagram.com/mimet_cafe"><i
+                        class="fab fa-instagram"></i></a>
+                <a class="text-dark fs-2" href="https://www.facebook.com/profile.php?id=61568126794274"><i
+                        class="fab fa-facebook"></i></a>
+                <a class="text-dark fs-2" href="https://www.tiktok.com/@mimet.coffeeshop"><i
+                        class="fab fa-tiktok"></i></a>
+                        
+            </div>
+        </div>
+    </section>
+    <footer class="bg-secondary text-white py-4">
+        <div class="container">
+            <div class="text-center mb-2">
+                <h2 class="fw-bold" id="ContactUs">Contact Us</h2>
+                <hr class="w-25 mx-auto border-3" style="border-color: var(--primary-color) !important;" />
+            </div>
+            <div class="d-flex justify-content-center gap-4">
+                
+                <a class="text-white fs-5 text-decoration-none"><i class="bi bi-telephone-fill  me-3"></i>01500503232</a>
+                
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
